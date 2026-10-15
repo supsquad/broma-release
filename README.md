@@ -16,6 +16,16 @@ The engine source and patches live in a separate private repository.
 What each engine build changes, newest first. Broma App shows these notes when
 it offers to upgrade a profile's engine, in English or Vietnamese.
 
+### v151.0.7922.175-4 — 2026-10-15
+
+**English**
+
+- New icon: an orange circle with a white chrysanthemum, so profile windows are easy to tell apart from Broma App on the taskbar.
+
+**Tiếng Việt**
+
+- Biểu tượng mới: hình tròn cam với bông hoa cúc trắng, để cửa sổ profile dễ phân biệt với Broma App trên thanh taskbar.
+
 ### v151.0.7922.175-3 — 2026-10-09
 
 **English**
