@@ -11,6 +11,26 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.29 — 2026-10-15
+
+**English**
+
+- **Payment**: buying a plan or a flow now starts with a confirmation step that shows what you are buying, each payment method as a button with its own amount, and the total. Your order is created only when you confirm.
+- **Payment**: plans can take a coupon code. The discount shows before you confirm, and if a code does not apply you are told why.
+- **Payment**: crypto and card payments open the payment page in your browser by themselves. You can still change the payment method of an open order.
+- **Profiles**: a new profile starts on the latest browser version, so you no longer have to pick one.
+- **Team**: owners can switch a person between Member and Viewer. Viewers now use and sync team profiles like members; they just cannot change a profile's settings.
+- **Agent**: the Agent button moved to the top bar, next to notifications.
+
+**Tiếng Việt**
+
+- **Thanh toán**: mua gói hoặc flow giờ bắt đầu bằng bước xác nhận: hiện thứ bạn mua, mỗi phương thức thanh toán là một nút kèm số tiền riêng, và tổng tiền. Đơn chỉ được tạo khi bạn bấm xác nhận.
+- **Thanh toán**: mua gói có thể nhập mã giảm giá. Số tiền giảm hiện trước khi bạn xác nhận; mã không dùng được thì app nói rõ lý do.
+- **Thanh toán**: trả bằng tiền điện tử hoặc thẻ thì trang thanh toán tự mở trong trình duyệt. Đơn đang chờ trả vẫn đổi được phương thức.
+- **Profile**: profile mới được chọn sẵn phiên bản trình duyệt mới nhất, không cần tự chọn nữa.
+- **Team**: chủ team đổi được vai trò Thành viên và Chỉ xem. Người Chỉ xem giờ dùng và đồng bộ profile của team như thành viên, chỉ không sửa được thông số profile.
+- **Agent**: nút Agent chuyển lên thanh trên cùng, cạnh nút thông báo.
+
 ### v1.0.0-beta.28 — 2026-10-15
 
 **English**
