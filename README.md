@@ -11,6 +11,18 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.28 — 2026-10-15
+
+**English**
+
+- **About**: shows what is new in the version you are running, even when there is no update to install.
+- **Agent**: fixed the whole app scrolling out of the window while the Agent panel showed a long chat.
+
+**Tiếng Việt**
+
+- **Giới thiệu**: hiện những gì mới ở phiên bản bạn đang dùng, kể cả khi không có bản cập nhật nào.
+- **Agent**: sửa lỗi cả app cuộn ra ngoài cửa sổ khi panel Agent đang hiện một cuộc trò chuyện dài.
+
 ### v1.0.0-beta.27 — 2026-10-13
 
 **English**
