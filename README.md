@@ -30,7 +30,7 @@ available update, in English or Vietnamese.
 - **Cửa hàng**: flow của người bán được bảo vệ khi đăng bán. Đăng bán flow cần phiên bản này trở lên.
 - **Cửa hàng**: liên kết *Mở trong Broma* trên website Broma mở thẳng flow trong Cửa hàng của app.
 - **Proxy**: kiểm tra proxy hỏi lần lượt nhiều dịch vụ, nên một dịch vụ lỗi không làm hỏng lần kiểm tra. Bạn có thể thêm dịch vụ kiểm tra riêng trong Cài đặt.
-- **Profile**: tuỳ chọn mới chặn mở profile khi proxy của nó kiểm tra lỗi.
+- **Profile**: tùy chọn mới chặn mở profile khi proxy của nó kiểm tra lỗi.
 - **Agent**: panel Agent liệt kê các agent của bạn, thêm agent mới được hướng dẫn từng bước. Đăng xuất một agent là xóa agent đó.
 
 ### v1.0.0-beta.29 — 2026-10-15
