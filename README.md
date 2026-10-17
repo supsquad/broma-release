@@ -11,6 +11,28 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.30 — 2026-10-17
+
+**English**
+
+- **Team flows**: share a flow with your team instead of selling it. The team owner chooses who may share flows and who sees each one. Only the person who shared a flow can change it; everyone else can run it, or make a copy to change. Team flows count toward the team's storage.
+- **Store**: flows bought from the Store are now protected. They run on any of your profiles, but cannot be opened in the editor, exported or sold again. The app checks your purchase before a run, and keeps working offline for up to 7 days.
+- **Store**: sellers' flows are protected when published. Publishing a flow needs this version or newer.
+- **Store**: *Open in Broma* links from the Broma website open the flow in the app's Store.
+- **Proxy**: proxy checks ask several services in turn, so one service being down no longer fails the check. You can add your own check services in Settings.
+- **Profiles**: a new option refuses to open a profile while its proxy check fails.
+- **Agent**: the Agent panel lists your agents, and adding one is guided step by step. Signing an agent out removes it.
+
+**Tiếng Việt**
+
+- **Flow của team**: chia sẻ flow cho team thay vì đem bán. Chủ team chọn ai được đẩy flow lên và ai thấy từng flow. Chỉ người đẩy flow lên mới sửa được; người khác chạy được, hoặc tạo bản riêng để sửa. Flow của team tính vào dung lượng của team.
+- **Cửa hàng**: flow mua từ Cửa hàng giờ được bảo vệ. Flow chạy được trên mọi profile của bạn nhưng không mở trong editor, không xuất ra và không bán lại được. App kiểm tra giao dịch mua trước khi chạy, và vẫn chạy được khi mất mạng tối đa 7 ngày.
+- **Cửa hàng**: flow của người bán được bảo vệ khi đăng bán. Đăng bán flow cần phiên bản này trở lên.
+- **Cửa hàng**: liên kết *Mở trong Broma* trên website Broma mở thẳng flow trong Cửa hàng của app.
+- **Proxy**: kiểm tra proxy hỏi lần lượt nhiều dịch vụ, nên một dịch vụ lỗi không làm hỏng lần kiểm tra. Bạn có thể thêm dịch vụ kiểm tra riêng trong Cài đặt.
+- **Profile**: tuỳ chọn mới chặn mở profile khi proxy của nó kiểm tra lỗi.
+- **Agent**: panel Agent liệt kê các agent của bạn, thêm agent mới được hướng dẫn từng bước. Đăng xuất một agent là xóa agent đó.
+
 ### v1.0.0-beta.29 — 2026-10-15
 
 **English**
