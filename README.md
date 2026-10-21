@@ -11,6 +11,22 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.31 — 2026-10-21
+
+**English**
+
+- **Editor**: nodes have a cleaner look. Each node's icon takes the colour of its group, the same as in the node list, and the text is larger and easier to read.
+- **Editor**: Condition and Loop nodes show each output on a row of its own, so the labels no longer cover the node's text.
+- **Editor**: a node shows whether it finished, is running or failed in the last run, and warns when a required value is missing. Its delete button appears when you point at the node or select it.
+- **Profiles**: the option that refuses to open a profile while its proxy check fails is now on by default for every profile with a proxy. You can turn it off in the profile's settings.
+
+**Tiếng Việt**
+
+- **Editor**: node trông gọn gàng hơn. Icon của mỗi node mang màu theo nhóm, giống trong Bảng node, chữ to và dễ đọc hơn.
+- **Editor**: node Điều kiện và Lặp hiện mỗi nhánh trên một dòng riêng, nhãn nhánh không còn đè lên chữ của node.
+- **Editor**: node cho biết đã chạy xong, đang chạy hay bị lỗi ở lần chạy vừa rồi, và cảnh báo khi còn thiếu giá trị bắt buộc. Nút xóa hiện khi rê chuột vào node hoặc khi chọn node.
+- **Profile**: tùy chọn chặn mở profile khi proxy kiểm tra lỗi giờ bật sẵn cho mọi profile có proxy. Bạn có thể tắt trong thông số của profile.
+
 ### v1.0.0-beta.30 — 2026-10-17
 
 **English**
