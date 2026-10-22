@@ -11,6 +11,20 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.32 — 2026-10-22
+
+**English**
+
+- **Agent**: the Agent can now remember things for you. Ask it to “remember …” in a chat, start a message with `#`, or write them yourself on the new Memory screen (`/memory`). Every agent reads them in every chat. If the Agent has just read a web page it asks you before saving, and it always asks before forgetting one.
+- **Agent**: add an agent right on the agent list. Pick how it connects from one menu, and see the accounts you already added while you add another. You can sign in to several Claude or ChatGPT accounts and switch between them.
+- **Agent**: an agent that was signed out signs in again right from the list.
+
+**Tiếng Việt**
+
+- **Agent**: Agent giờ ghi nhớ được cho bạn. Bảo Agent “ghi nhớ …” trong chat, gõ `#` ở đầu tin nhắn, hoặc tự viết trong màn Ghi nhớ mới (`/memory`). Mọi agent đều đọc các ghi nhớ này ở mọi chat. Nếu vừa đọc trang web, Agent hỏi bạn trước khi ghi, và luôn hỏi trước khi quên một ghi nhớ.
+- **Agent**: thêm agent ngay trên danh sách agent. Chọn cách kết nối trong một ô chọn, và thấy luôn các tài khoản đã thêm trong lúc thêm tài khoản khác. Bạn có thể đăng nhập nhiều tài khoản Claude hoặc ChatGPT và chuyển qua lại.
+- **Agent**: agent bị đăng xuất được đăng nhập lại ngay trên danh sách.
+
 ### v1.0.0-beta.31 — 2026-10-21
 
 **English**
