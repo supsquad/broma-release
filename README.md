@@ -11,6 +11,20 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.34 — 2026-10-23
+
+**English**
+
+- **Agent**: an empty chat now shows how many things the Agent remembers, and takes you to the Memory screen in one click. With nothing remembered yet, it reminds you that typing `#` adds an entry.
+- **Agent**: the way to Memory now stays at the bottom of the agent list, however many agents you have.
+- **Agent**: signing out clears the memory shown in the app, so the next account to sign in never sees the previous one’s.
+
+**Tiếng Việt**
+
+- **Agent**: chat trống giờ cho biết Agent đang nhớ bao nhiêu mục, bấm một lần là tới màn Ghi nhớ. Chưa có ghi nhớ nào thì nhắc bạn gõ `#` để thêm.
+- **Agent**: lối vào Ghi nhớ giờ luôn nằm ở chân danh sách agent, dù bạn có bao nhiêu agent.
+- **Agent**: đăng xuất thì ghi nhớ đang hiện trong app được xóa, tài khoản đăng nhập sau không thấy ghi nhớ của tài khoản trước.
+
 ### v1.0.0-beta.33 — 2026-10-23
 
 **English**
