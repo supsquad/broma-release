@@ -11,6 +11,20 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.33 — 2026-10-23
+
+**English**
+
+- **Plans**: buying a different plan while your current one is still running now says what happens before you pay. The new plan starts right away, and the time left on your current plan is converted by value into days of the new one. Moving to a cheaper plan is highlighted, because the current plan and everything it includes ends at once.
+- **Plans**: a team with more members or synced profiles than its plan allows now has cloud sync paused for everyone in it until it fits again. Profiles keep working on every machine. The Plan and Team screens say what is over and how to fix it, and checkout warns you before you buy a plan your team would not fit.
+- **Profiles**: new “Remove from cloud, keep here” action, for one profile or a selection. It takes profiles out of the cloud and keeps them on this machine as local-only profiles; turning sync back on puts them back. The Agent can do it too, after asking you.
+
+**Tiếng Việt**
+
+- **Gói**: mua gói khác trong lúc gói hiện tại còn hạn giờ được nói rõ trước khi trả tiền. Gói mới có hiệu lực ngay, thời gian còn lại của gói hiện tại được quy theo giá trị thành ngày dùng gói mới. Chuyển xuống gói rẻ hơn được tô cảnh báo, vì gói hiện tại và các quyền lợi của nó kết thúc ngay.
+- **Gói**: team có nhiều thành viên hoặc profile đồng bộ hơn gói cho phép giờ tạm dừng đồng bộ cloud cho cả team cho đến khi về lại trong giới hạn. Profile vẫn dùng bình thường trên mọi máy. Màn Gói và màn Team nói rõ vượt phần nào và cách xử lý, và bước thanh toán cảnh báo trước nếu team sẽ vượt gói bạn định mua.
+- **Profile**: thêm thao tác “Gỡ khỏi cloud, giữ ở máy” cho một hoặc nhiều profile. Profile được đưa ra khỏi cloud và giữ lại trên máy này thành profile chỉ ở máy; bật lại đồng bộ sẽ đưa lên cloud lại. Agent cũng làm được việc này, sau khi hỏi bạn.
+
 ### v1.0.0-beta.32 — 2026-10-22
 
 **English**
