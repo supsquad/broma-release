@@ -11,6 +11,28 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.35 — 2026-10-29
+
+**English**
+
+- **App**: reopening Broma picks up where you left off. You are back on the screen you were on, with its search, filters and sort; the drawer or dialog you had open comes back on the same item, with the changes you had not saved yet; and so does the message you were typing to the Agent. If that item was changed elsewhere in the meantime, on another computer or by a team member, only your own changes are put back, and a field changed on both sides is flagged so you can check it before saving. Payments, sign-ins and anything that was running are never resumed.
+- **App**: the Agent panel, the sidebar and the size of each panel are now remembered per account, so someone else signing in on the same computer keeps their own layout. The Agent panel is open the first time you use the app.
+- **Profiles**: the proxy section now offers three choices: None, Saved or Manual. Removing a proxy is one click on None. Saved shows the proxy the profile uses, and warns you if that proxy has since been deleted from your list. In Manual, pasting `socks5://host:port:user:pass` into Host fills in every field.
+- **Profiles**: new “Remove proxy” in a profile’s ⋯ menu and for a selection, after asking you.
+- **Profiles**: share several profiles at once: select them and choose Share. Tick a person to share them all, untick to stop sharing them; someone who has only some of them shows how many.
+- **Profiles**: the share dialog keeps your ticks when the list refreshes, and before you stop sharing it says how many profiles each person will lose.
+- **Editor**: what you typed just before quitting is no longer lost.
+
+**Tiếng Việt**
+
+- **App**: mở lại Broma là tiếp tục đúng chỗ đang dở. Bạn quay về màn đang ở, giữ nguyên ô tìm kiếm, bộ lọc và sắp xếp; drawer hoặc dialog đang mở hiện lại đúng mục đó, kèm những thay đổi chưa lưu; tin nhắn đang gõ cho Agent cũng còn nguyên. Nếu trong lúc đó mục ấy đã được sửa ở nơi khác, trên máy khác hoặc bởi thành viên team, thì chỉ những thay đổi của bạn được áp lại, và ô nào cả hai bên cùng sửa sẽ được đánh dấu để bạn xem lại trước khi Lưu. Thanh toán, đăng nhập và những việc đang chạy thì không bao giờ được tiếp tục lại.
+- **App**: panel Agent, sidebar và kích thước từng panel giờ được nhớ theo từng tài khoản, nên người khác đăng nhập trên cùng máy vẫn giữ bố cục của họ. Lần đầu dùng app, panel Agent mở sẵn.
+- **Profile**: mục proxy giờ có ba lựa chọn: Không dùng, Đã lưu hoặc Nhập tay. Gỡ proxy chỉ cần bấm Không dùng. Đã lưu hiện đúng proxy profile đang dùng, và cảnh báo nếu proxy đó đã bị xóa khỏi danh sách. Ở Nhập tay, dán `socks5://host:port:user:pass` vào ô Host là điền đủ mọi ô.
+- **Profile**: thêm “Gỡ proxy” trong menu ⋯ của profile và cho nhiều profile đang chọn, có hỏi trước.
+- **Profile**: chia sẻ nhiều profile một lần: chọn các profile rồi bấm Chia sẻ. Tick một người là chia sẻ cả, bỏ tick là ngừng chia sẻ cả; người đang có một phần thì hiện số profile họ có.
+- **Profile**: dialog chia sẻ giữ nguyên các tick khi danh sách được đọc lại, và trước khi ngừng chia sẻ sẽ nói rõ mỗi người mất bao nhiêu profile.
+- **Editor**: những gì bạn vừa gõ ngay trước khi thoát không còn bị mất.
+
 ### v1.0.0-beta.34 — 2026-10-23
 
 **English**
