@@ -11,6 +11,28 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.36 — 2026-10-29
+
+**English**
+
+- **Extensions**: a new Store tab beside your library, laid out like the Chrome Web Store. It offers hand-picked extensions for people who run many profiles, sorted by kind (crypto wallets, ad blocking, proxy & VPN, cookies & sessions, captcha, automation, productivity), with users and ratings. Add one in one click; an extension you already have says so.
+- **Extensions**: sellers can now publish their own extensions on the Broma store. They are always free to install, and one that charges for something inside itself says so on its card. Broma reviews every version before it reaches the store, and an extension taken down from the store stops loading in your profiles.
+- **Extensions**: pasting a Chrome Web Store link shows the extension's name, icon, users and rating before you add it, and tells you when the store has no such extension or your library already has it.
+- **Extensions**: renaming an extension added from the Chrome Web Store no longer stops it syncing to your other computers.
+- **Sellers**: ask to publish extensions from the Seller screen. Once allowed, create an extension listing and upload each version from its folder or a .zip.
+- **Profiles**: switching between None, Saved and Manual in the proxy section no longer marks the browser version in red, and the page no longer jumps around.
+- **App**: switching tabs in a form without typing anything no longer asks whether to discard changes. An address typed in Manual proxy that would be lost is still asked about.
+
+**Tiếng Việt**
+
+- **Tiện ích**: thêm tab Cửa hàng cạnh thư viện, trình bày giống Chrome Web Store. Cửa hàng có các tiện ích tuyển chọn cho người dùng nhiều profile, xếp theo nhóm (ví crypto, chặn quảng cáo, proxy & VPN, cookie & phiên, captcha, tự động hóa, năng suất), kèm số người dùng và đánh giá. Thêm tiện ích chỉ với một lần bấm; tiện ích đã có trong thư viện thì ghi “Đã có”.
+- **Tiện ích**: người bán giờ đăng được tiện ích của riêng họ lên cửa hàng Broma. Tiện ích luôn cài miễn phí; tiện ích nào thu phí bên trong thì ghi rõ trên thẻ. Broma duyệt từng phiên bản trước khi lên cửa hàng, và tiện ích bị gỡ khỏi cửa hàng sẽ ngừng chạy trong profile của bạn.
+- **Tiện ích**: dán link Chrome Web Store là thấy ngay tên, icon, số người dùng và đánh giá trước khi thêm, kèm thông báo nếu cửa hàng không có tiện ích đó hoặc thư viện đã có.
+- **Tiện ích**: đổi tên tiện ích lấy từ Chrome Web Store không còn làm nó ngừng đồng bộ sang máy khác.
+- **Người bán**: xin quyền đăng tiện ích ở màn Người bán. Khi được duyệt, tạo sản phẩm loại tiện ích rồi tải từng phiên bản lên từ thư mục hoặc file .zip.
+- **Profile**: chuyển giữa Không dùng, Đã lưu và Nhập tay ở mục proxy không còn làm ô phiên bản trình duyệt báo đỏ, và màn hình không còn bị nhảy.
+- **App**: chuyển tab trong form mà chưa nhập gì thì bấm Hủy không còn hỏi bỏ thay đổi. Địa chỉ đã gõ ở proxy Nhập tay mà sắp mất thì vẫn được hỏi.
+
 ### v1.0.0-beta.35 — 2026-10-29
 
 **English**
