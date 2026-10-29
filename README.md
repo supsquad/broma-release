@@ -11,6 +11,18 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.37 — 2026-10-30
+
+**English**
+
+- **Extensions**: “Install in Broma” on the extension pages of the Broma website now opens Broma on the Store tab of the Extensions screen, showing that extension, ready to add.
+- **Store**: “View on the web” for a flow opens its page at the store's new address.
+
+**Tiếng Việt**
+
+- **Tiện ích**: nút “Cài trong Broma” ở các trang tiện ích trên web Broma giờ mở thẳng Broma tại tab Cửa hàng của màn Tiện ích mở rộng, hiện đúng tiện ích đó để bạn thêm.
+- **Cửa hàng**: “Xem trên web” của một flow mở đúng trang của nó theo địa chỉ mới của cửa hàng.
+
 ### v1.0.0-beta.36 — 2026-10-29
 
 **English**
