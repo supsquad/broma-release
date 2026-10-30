@@ -11,6 +11,28 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.38 — 2026-10-30
+
+**English**
+
+- **Extensions**: add extensions right from a profile. Pick several at once from your library, the Store, pasted Chrome Web Store links, or .crx and .zip files and folders on this computer.
+- **Extensions**: your extension library now follows you to every computer you sign in on. An extension you import from your computer is uploaded once and counts towards your plan's storage; extensions from a store do not. Past your storage, the import is refused and nothing is left behind.
+- **Extensions**: every team has a shared extension library, and a team's profiles load their extensions from it on every computer. Pick which library you are looking at on the Extensions screen.
+- **Extensions**: deleting an extension now removes it from your library on every computer and from every profile using it.
+- **Store**: a new Popular shelf lists the most used extensions on the Chrome Web Store, refreshed every day.
+- **Teams**: simpler roles. Members can create, change and delete the team's profiles, flows and extensions. Viewers use what is shared with them and change nothing. Who sees which profile and flow is still the owner's call.
+- **Profiles**: when creating a profile, pick the team it belongs to if you are a member of one.
+
+**Tiếng Việt**
+
+- **Tiện ích**: thêm tiện ích ngay trong profile. Chọn nhiều cái một lúc từ thư viện, Cửa hàng, link Chrome Web Store dán vào, hoặc tệp .crx, .zip và thư mục trên máy.
+- **Tiện ích**: thư viện tiện ích giờ theo bạn sang mọi máy đăng nhập. Tiện ích import từ máy được tải lên một lần và tính vào dung lượng của gói; tiện ích từ cửa hàng thì không. Vượt dung lượng thì việc import bị từ chối và không để lại gì trên máy.
+- **Tiện ích**: mỗi team có một thư viện tiện ích chung, profile của team lấy tiện ích từ đó trên mọi máy. Chọn thư viện muốn xem ở màn Tiện ích mở rộng.
+- **Tiện ích**: xóa một tiện ích giờ gỡ nó khỏi thư viện trên mọi máy và khỏi mọi profile đang dùng.
+- **Cửa hàng**: thêm kệ Phổ biến gồm những tiện ích nhiều người dùng nhất trên Chrome Web Store, cập nhật mỗi ngày.
+- **Team**: phân quyền đơn giản hơn. Thành viên tạo, sửa và xóa được profile, flow và tiện ích của team. Người chỉ xem dùng những gì được chia sẻ và không thay đổi gì. Ai thấy profile và flow nào vẫn do chủ team quyết định.
+- **Profile**: khi tạo profile, chọn team của nó nếu bạn là thành viên của một team.
+
 ### v1.0.0-beta.37 — 2026-10-30
 
 **English**
