@@ -11,6 +11,20 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.40 — 2026-10-31
+
+**English**
+
+- **Extensions**: extensions you add from inside a profile now always show in the Library tab of the Extensions screen, and the eye button is gone. Deleting one still tells you which profiles on this computer will lose it.
+- **Extensions**: the add dialog in a profile now says clearly that what you add there also goes into your library right away, even if you don't save the profile.
+- **Sync actions**: a following profile whose page is briefly busy now keeps up instead of losing actions or opening extra tabs. If a page still doesn't respond, that action is skipped rather than clicked blindly.
+
+**Tiếng Việt**
+
+- **Tiện ích**: tiện ích thêm từ trong profile giờ luôn hiện ở tab Thư viện của màn Tiện ích mở rộng, không còn nút con mắt. Khi xóa, Broma vẫn báo những profile nào trên máy này sẽ mất tiện ích đó.
+- **Tiện ích**: hộp thoại thêm tiện ích trong profile giờ nói rõ tiện ích thêm ở đó cũng được đưa vào thư viện ngay, kể cả khi bạn không lưu profile.
+- **Đồng bộ thao tác**: profile theo có trang đang bận trong chốc lát giờ vẫn theo kịp, không mất thao tác hay mở thừa tab. Nếu trang vẫn không trả lời, thao tác đó được bỏ qua chứ không bấm mù.
+
 ### v1.0.0-beta.39 — 2026-10-31
 
 **English**
