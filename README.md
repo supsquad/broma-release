@@ -11,6 +11,18 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.39 — 2026-10-31
+
+**English**
+
+- **Extensions**: extensions you add from inside a profile no longer crowd the Library tab of the Extensions screen. On the computer where you added them they are hidden by default; press the eye button to show them. Adding the same extension from the Extensions screen brings it onto the list.
+- **Extensions**: before you delete an extension, Broma now tells you how many profiles on this computer will lose it and names them.
+
+**Tiếng Việt**
+
+- **Tiện ích**: tiện ích thêm từ trong profile không còn làm đầy tab Thư viện của màn Tiện ích mở rộng. Trên máy đã thêm, chúng được ẩn theo mặc định; bấm nút con mắt để hiện. Thêm chính tiện ích đó từ màn Tiện ích mở rộng thì nó hiện lại trong danh sách.
+- **Tiện ích**: trước khi xóa một tiện ích, Broma báo rõ bao nhiêu profile trên máy này sẽ mất nó và nêu tên các profile đó.
+
 ### v1.0.0-beta.38 — 2026-10-30
 
 **English**
