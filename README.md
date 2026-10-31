@@ -16,6 +16,20 @@ The engine source and patches live in a separate private repository.
 What each engine build changes, newest first. Broma App shows these notes when
 it offers to upgrade a profile's engine, in English or Vietnamese.
 
+### v151.0.7922.175-5 — 2026-10-31
+
+**English**
+
+- Opening a profile no longer makes its extensions act as if they were just installed. Extensions that show a welcome or help page now do so once, the first time they are added to a profile, not on every launch.
+- Extensions now keep their scheduled tasks, context menus and registered scripts between launches, and their startup routines run each time a profile opens.
+- An updated extension now knows it was updated, instead of starting over as a new install.
+
+**Tiếng Việt**
+
+- Mở profile không còn khiến tiện ích hành xử như vừa được cài. Tiện ích có trang chào hoặc trang hướng dẫn giờ chỉ mở trang đó một lần, khi mới thêm vào profile, không mở lại ở mỗi lần mở profile.
+- Tiện ích giờ giữ được tác vụ đã hẹn, menu chuột phải và script đã đăng ký giữa các lần mở, và các bước khởi động của tiện ích chạy mỗi khi mở profile.
+- Tiện ích được cập nhật giờ nhận biết đó là bản cập nhật, không bắt đầu lại như mới cài.
+
 ### v151.0.7922.175-4 — 2026-10-15
 
 **English**
