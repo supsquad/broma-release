@@ -11,6 +11,18 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.41 — 2026-10-31
+
+**English**
+
+- **Extensions**: a new browser engine stops extensions from reopening their welcome or help page every time you open a profile. They also keep their scheduled tasks, context menus and registered scripts between launches. New profiles get this engine automatically; for an existing profile, choose **Upgrade engine** from its ⋯ menu.
+- **Profile sync**: more of an extension's data now travels with a synced profile: its registered scripts, network rules and the settings it keeps in sync storage.
+
+**Tiếng Việt**
+
+- **Tiện ích**: engine trình duyệt mới giúp tiện ích không còn mở lại trang chào hoặc trang hướng dẫn mỗi lần mở profile. Tiện ích cũng giữ được tác vụ đã hẹn, menu chuột phải và script đã đăng ký giữa các lần mở. Profile mới tự dùng engine này; với profile đã có, chọn **Nâng engine** trong menu ⋯ của profile.
+- **Đồng bộ profile**: nhiều dữ liệu của tiện ích hơn giờ đi theo profile đồng bộ: script đã đăng ký, quy tắc mạng và cài đặt tiện ích lưu trong bộ nhớ đồng bộ.
+
 ### v1.0.0-beta.40 — 2026-10-31
 
 **English**
