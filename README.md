@@ -11,6 +11,22 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.42 — 2026-11-02
+
+**English**
+
+- **Extensions**: install extensions on many profiles at once. Select the profiles on the Profiles screen, press **Add extensions** in the selection bar, then pick from your library, the Store, pasted Chrome Web Store links or files on this computer. A profile that has another version of an extension you pick from the library or a file gets the new one and keeps it switched on or off; an extension from the Store or a link is only added where it is missing. A profile that is open gets them the next time it opens.
+- **Extensions**: each profile now keeps its own copy of its extensions, like its proxy. Adding an extension inside a profile no longer puts it in your library, and changing or deleting something in the library leaves your profiles as they are. To offer a profile's extension to your other profiles, press **Save to the library** next to it; to move profiles to the library's version, choose **Apply to profiles using it…** on that extension in the library.
+- **Extensions**: the same extension added twice, say once as a .crx file and once as a folder, is now recognized as one, so it is kept and counted against your storage only once however many profiles use it. An extension from your computer that only a profile uses is uploaded only if that profile syncs.
+- **Profile sync**: removing the last extension from a profile now reaches your other computers too.
+
+**Tiếng Việt**
+
+- **Tiện ích**: cài tiện ích cho nhiều profile cùng lúc. Chọn các profile ở màn Profile, bấm **Thêm tiện ích** trên thanh chọn nhiều, rồi chọn từ thư viện, cửa hàng, link Chrome Web Store hoặc tệp trên máy. Profile đang có bản khác của tiện ích bạn chọn từ thư viện hay từ tệp sẽ nhận bản mới và giữ nguyên bật/tắt; tiện ích từ cửa hàng hoặc link chỉ được thêm vào profile chưa có. Profile đang mở nhận tiện ích ở lần mở sau.
+- **Tiện ích**: mỗi profile giờ giữ bản tiện ích của riêng nó, giống proxy. Thêm tiện ích trong profile không còn đưa vào thư viện, và sửa hay xóa trong thư viện không làm profile thay đổi. Muốn dùng tiện ích của một profile cho các profile khác, bấm **Lưu vào thư viện** cạnh tiện ích đó; muốn chuyển các profile sang bản trong thư viện, chọn **Áp dụng cho profile đang dùng…** ở tiện ích đó trong thư viện.
+- **Tiện ích**: cùng một tiện ích thêm hai lần, ví dụ một lần bằng tệp .crx và một lần bằng thư mục, giờ được nhận ra là một, nên chỉ lưu và chỉ tính vào dung lượng một lần dù nhiều profile cùng dùng. Tiện ích từ máy tính mà chỉ một profile dùng chỉ được tải lên khi profile đó bật đồng bộ.
+- **Đồng bộ profile**: gỡ tiện ích cuối cùng khỏi một profile giờ cũng cập nhật sang các máy khác.
+
 ### v1.0.0-beta.41 — 2026-10-31
 
 **English**
