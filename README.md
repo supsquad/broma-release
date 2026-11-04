@@ -11,6 +11,28 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.43 — 2026-11-04
+
+**English**
+
+- **Profile groups**: file your profiles into groups. On the Profiles screen, the new **Groups** button in the toolbar creates groups, manages them (rename, delete) and picks which groups the list shows: tick the ones you want, or use **Only this**, **Show all** and **Hide all**. Your choice is kept the next time you open Broma.
+- **Profile groups**: move profiles with **Move to group…** or **Remove from group** in a profile's ⋯ menu or in the selection bar, or pick a group when you edit a profile. A profile is in one group at most. The list has a new **Group** column, and search finds profiles by their group's name too. A new profile goes into the group on show when only one is.
+- **Profile groups**: groups belong to the team and sync between computers, so everybody in the team sees the same groups. Owners and members can change them; viewers can filter by them. Deleting a group deletes no profile: its profiles become **Not grouped**.
+- **Agent**: the Agent can list, create and rename groups and move profiles into them for you. It asks before deleting a group.
+- **Agent**: choose how hard the model thinks with the new **Effort** chip under the chat box, or type `/effort`. Each agent keeps its own level; **Model default** leaves it to the model.
+- **Agent**: a Codex agent now shows the email and ChatGPT plan it is signed in with, as a Claude Code agent does.
+- **Agent**: the chat box no longer shrinks to a thin line when the Agent panel was closed as you signed in.
+
+**Tiếng Việt**
+
+- **Nhóm profile**: xếp profile vào nhóm. Ở màn Profile, nút **Nhóm** mới trên thanh công cụ dùng để tạo nhóm, quản lý nhóm (đổi tên, xóa) và chọn nhóm nào hiện trong danh sách: tick các nhóm muốn xem, hoặc dùng **Chỉ nhóm này**, **Hiện tất cả**, **Ẩn hết**. Lựa chọn được giữ cho lần mở Broma sau.
+- **Nhóm profile**: chuyển profile bằng **Chuyển vào nhóm…** hoặc **Bỏ khỏi nhóm** trong menu ⋯ của profile hay trên thanh chọn nhiều, hoặc chọn nhóm khi sửa profile. Mỗi profile thuộc tối đa một nhóm. Danh sách có thêm cột **Nhóm**, và ô tìm kiếm cũng tìm theo tên nhóm. Profile mới tạo vào luôn nhóm đang hiện nếu chỉ có một nhóm hiện.
+- **Nhóm profile**: nhóm thuộc về team và đồng bộ giữa các máy, nên mọi người trong team thấy chung các nhóm. Owner và member thay đổi được nhóm; viewer dùng nhóm để lọc. Xóa nhóm không xóa profile nào: profile trong nhóm về **Chưa có nhóm**.
+- **Agent**: Agent có thể xem, tạo, đổi tên nhóm và chuyển profile vào nhóm giúp bạn. Agent hỏi trước khi xóa nhóm.
+- **Agent**: chọn mức model nghĩ kỹ bằng chip **Effort** mới dưới ô chat, hoặc gõ `/effort`. Mỗi agent giữ mức của riêng nó; **Mặc định của model** để model tự quyết.
+- **Agent**: agent Codex giờ hiện email và gói ChatGPT đang đăng nhập, giống agent Claude Code.
+- **Agent**: ô chat không còn bị co lại thành một vạch mỏng khi panel Agent đang đóng lúc bạn đăng nhập.
+
 ### v1.0.0-beta.42 — 2026-11-02
 
 **English**
