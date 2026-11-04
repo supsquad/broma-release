@@ -11,6 +11,26 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.44 — 2026-11-04
+
+**English**
+
+- **Flows**: a flow can now ask for input. Declare an input form (text, number, on/off, choice or list, each with a default) and every run asks for those values on the Run screen; a blank one takes the default. Nodes use them as `{{input.name}}`, so the same flow works for any keyword, link list or page count. The Agent can fill them in when it runs a flow for you.
+- **Flows**: a flow can now give back a table. Declare its columns and write rows with the new **Write result row** node. Each run's rows show on the Run screen under **Result**, kept on this computer only, and export to Excel, CSV or JSON.
+- **Flows**: nodes can pass data to each other through a shared memory. The new **Set memory** node sets a variable, appends to a list or adds to a number; **Save as variable** on the reading nodes keeps what they read; later nodes use it as `{{var.name}}`. **Loop** can now run once per item of a list, and **Extract text** can read every matching element or an attribute such as a link.
+- **Editor**: the input form, shared memory and result table live in the new **Flow data** panel, left of the canvas, which also shows which nodes write and read each variable. Click a value there to insert it into the node field you were editing.
+- **Store**: a flow's page in the Store, in the app and on the website, shows what you fill in and what you get before you buy it.
+- **Profiles**: the selection bar no longer runs into the buttons on its right; buttons that do not fit move into its ⋯ menu.
+
+**Tiếng Việt**
+
+- **Flow**: flow giờ hỏi được dữ liệu đầu vào. Khai báo form nhập (văn bản, số, bật/tắt, chọn một hoặc danh sách, mỗi ô có giá trị mặc định) thì mỗi lần chạy sẽ hỏi các giá trị đó ở màn Chạy; ô để trống lấy giá trị mặc định. Các node dùng chúng bằng `{{input.tên}}`, nên một flow chạy được với bất kỳ từ khóa, danh sách link hay số trang nào. Agent điền được các ô này khi chạy flow giúp bạn.
+- **Flow**: flow giờ trả về được một bảng. Khai báo các cột rồi ghi từng dòng bằng node mới **Ghi dòng kết quả**. Kết quả mỗi lần chạy hiện ở màn Chạy, mục **Kết quả**, chỉ lưu trên máy này, và xuất được ra Excel, CSV hoặc JSON.
+- **Flow**: các node truyền dữ liệu cho nhau qua bộ nhớ chung. Node mới **Ghi bộ nhớ** gán biến, thêm vào danh sách hoặc cộng vào số; ô **Lưu vào biến** ở các node đọc dữ liệu giữ lại thứ chúng đọc được; node sau dùng bằng `{{var.tên}}`. **Loop** giờ chạy được một lượt cho mỗi phần tử của danh sách, và **Extract text** lấy được tất cả phần tử khớp hoặc một thuộc tính như link.
+- **Editor**: form nhập, bộ nhớ chung và bảng kết quả nằm ở panel mới **Dữ liệu flow** bên trái canvas, cho biết node nào ghi và node nào đọc từng biến. Bấm vào một giá trị ở đó để chèn vào ô của node bạn đang sửa.
+- **Cửa hàng**: trang của flow trong Cửa hàng, cả trong app lẫn trên website, cho biết bạn cần nhập gì và nhận được gì trước khi mua.
+- **Profile**: thanh chọn nhiều không còn đè lên các nút bên phải; nút nào không đủ chỗ được dồn vào menu ⋯.
+
 ### v1.0.0-beta.43 — 2026-11-04
 
 **English**
