@@ -11,6 +11,30 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.45 — 2026-11-05
+
+**English**
+
+- **Flows**: the **AI Vision** node works again, and it runs on an AI of your own. Point it at a screenshot, ask a question about it, and keep the answer in a variable for the nodes after it.
+- **Flows**: the AI for flows is a list of its own, in **Settings → AI for flows**, separate from the Agent in the ✦ panel. Add an API key, or sign in to a Claude Code or Codex plan — each one signs in to its own account, so it leaves the Agent's alone. The key never leaves this computer.
+- **Flows**: a flow names an **AI field** on its form, not an AI. Whoever runs the flow picks the AI behind that field, on their own computer. So a flow you share with your team or sell in the Store carries no key of yours, and a flow you buy runs on your own AI. What you pick there is the one thing in the form that no node can read.
+- **Flows**: drop an AI Vision node and the editor declares the AI field for you and points the node at it. A flow that used this node in an older version needs it set again: open the node and pick its AI field.
+- **Store**: a flow's page says you bring your own AI before you buy it.
+- **Runs**: picking an AI that runs on a plan (Claude Code, Codex) for more than one profile now says what to expect — a plan allows one call at a time for the whole account, so the AI steps wait for each other instead of running side by side. An API key is what runs them in parallel.
+- **Runs**: a run on a flow with no AI picked, or whose AI has been deleted, is refused before it starts and says which field to fill in, instead of failing on every profile at the node.
+- **Editor**: the **Flow data** panel now folds to a strip with one button instead of closing, and the button for it on the toolbar is gone.
+
+**Tiếng Việt**
+
+- **Flow**: node **AI Vision** chạy lại được, và nó chạy bằng AI của chính bạn. Trỏ nó vào một ảnh chụp, hỏi một câu về ảnh đó, rồi giữ câu trả lời vào một biến cho các node sau dùng.
+- **Flow**: AI dùng cho flow là một danh sách riêng, ở **Cài đặt → AI cho flow**, không liên quan Agent ở panel ✦. Thêm bằng khóa API, hoặc đăng nhập gói Claude Code / Codex — mỗi cái đăng nhập vào tài khoản riêng của nó, nên không ảnh hưởng tài khoản của Agent. Khóa không bao giờ ra khỏi máy này.
+- **Flow**: flow khai một **ô cấu hình AI** trong form nhập, chứ không ghi một AI cụ thể. Người chạy flow mới chọn AI đứng sau ô đó, trên máy của họ. Nên flow bạn chia sẻ cho team hay bán ở Cửa hàng không mang theo khóa của bạn, còn flow bạn mua thì chạy bằng AI của bạn. Thứ bạn chọn ở ô đó là thứ duy nhất trong form mà không node nào đọc được.
+- **Flow**: thả node AI Vision vào canvas thì editor tự khai ô cấu hình AI và trỏ node vào đó. Flow nào đã dùng node này ở bản cũ thì cần đặt lại: mở node ra và chọn ô cấu hình AI cho nó.
+- **Cửa hàng**: trang của flow cho biết bạn cần có AI riêng trước khi mua.
+- **Chạy**: chọn AI loại gói thuê tháng (Claude Code, Codex) cho nhiều profile thì giờ được nói trước — gói thuê tháng chỉ cho một lệnh tại một thời điểm trên cả tài khoản, nên các bước AI chờ nhau chứ không chạy song song. Muốn song song thì dùng AI kiểu khóa API.
+- **Chạy**: lần chạy nào chưa chọn AI, hoặc AI đã bị xóa, bị từ chối ngay từ đầu và nói rõ cần điền ô nào, thay vì chạy rồi chết ở node AI trên từng profile.
+- **Editor**: panel **Dữ liệu flow** giờ thu gọn thành một dải có một nút thay vì đóng hẳn, và nút bật/tắt nó trên thanh công cụ không còn nữa.
+
 ### v1.0.0-beta.44 — 2026-11-04
 
 **English**
