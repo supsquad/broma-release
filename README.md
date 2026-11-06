@@ -11,6 +11,28 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.46 — 2026-11-06
+
+**English**
+
+- **Proxies**: buy a proxy from a partner right inside Broma. **Buy proxies** on the Proxy screen shows the plans on sale: pick a term, how many, the country and how the IP rotates, then pay the way you pay for a plan. The proxy lands in your proxy list by itself about a minute later — nothing to copy, nothing to import — and a profile can pick it like any other proxy.
+- **Proxies**: the new **Purchased** tab is those same proxies seen as purchases: how many days are left, where to renew, a free **Rotate IP**, and a switch between HTTP and SOCKS5. Renewing keeps the plan, country and rotation it already has.
+- **Proxies**: a bought proxy does not count against your plan's proxy limit, and it cannot be edited or deleted on the **Mine** tab — it is the partner's session, and it leaves your list on its own when it expires. Select everything and press delete and only your own proxies go.
+- **Agent**: delete every conversation at once, from the button at the bottom of the history popover. A conversation still running is kept, and it says so. The delete button on the Agent panel header is gone; deleting one conversation is still on its row in the history.
+- **Agent**: when Claude fails, the message now says what it actually said instead of showing a block of JSON. A stale "another Claude Code process is refreshing" is cleared by itself and the request retried once, instead of staying stuck. A long error without spaces no longer runs outside its box.
+- **Profiles, Utilities**: the hint inside the search box is no longer cut off halfway.
+- **Profile groups**: the **New group** button in the Manage groups dialog no longer wraps onto two lines.
+
+**Tiếng Việt**
+
+- **Proxy**: mua proxy của đối tác ngay trong Broma. Nút **Mua proxy** ở màn Proxy hiện các gói đang bán: chọn thời hạn, số lượng, quốc gia và kiểu xoay IP, rồi trả tiền đúng cách bạn vẫn trả cho gói. Khoảng một phút sau proxy tự vào danh sách proxy của bạn — không phải copy, không phải import — và profile chọn được nó như mọi proxy khác.
+- **Proxy**: tab mới **Đã mua** là cũng những proxy đó nhìn theo góc đã mua: còn bao nhiêu ngày, gia hạn ở đâu, **Xoay IP** miễn phí, và chuyển giữa HTTP với SOCKS5. Gia hạn giữ nguyên gói, quốc gia và kiểu xoay sẵn có.
+- **Proxy**: proxy đã mua không tính vào giới hạn proxy của gói, và không sửa hay xóa được ở tab **Của tôi** — đó là session của đối tác, và nó tự rời danh sách khi hết hạn. Chọn hết rồi bấm xóa thì chỉ proxy của bạn bị xóa.
+- **Agent**: xóa toàn bộ cuộc trò chuyện trong một lần, bằng nút ở cuối popover lịch sử. Cuộc trò chuyện đang chạy được giữ lại, và app nói rõ điều đó. Nút xóa trên header panel Agent không còn nữa; xóa từng cuộc vẫn ở từng dòng trong lịch sử.
+- **Agent**: Claude lỗi thì tin nhắn hiện đúng câu nó trả về, thay vì một khối JSON. Khóa "another Claude Code process is refreshing" mồ côi được tự tháo rồi chạy lại một lượt, thay vì treo mãi. Lỗi dài không có dấu cách không còn tràn ra ngoài ô.
+- **Profile, Tiện ích**: chữ gợi ý trong ô tìm kiếm không còn bị cắt mất một nửa.
+- **Nhóm profile**: nút **Nhóm mới** trong dialog Quản lý nhóm không còn bị bóp xuống hai dòng.
+
 ### v1.0.0-beta.45 — 2026-11-05
 
 **English**
