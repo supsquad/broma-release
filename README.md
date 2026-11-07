@@ -11,6 +11,22 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.47 — 2026-11-07
+
+**English**
+
+- **Proxies**: the Proxy screen now has three tabs. **Added by you** holds the proxies you add or import, and only those — every one of them can be edited, deleted and exported. **Purchased** holds the proxies you bought. **Buy proxies** shows the plans on sale.
+- **Proxies**: **Buy proxies** lays every plan out side by side, each with its price per day, protocol, bandwidth, countries and IP rotation, so you can compare them at a glance. A plan that cannot be bought right now stays on the shelf with the reason. Pick a plan, then choose the term, quantity and country on the right and pay. Once paid you land on **Purchased**, where the new proxy reads "Provisioning…" until it is ready.
+- **Proxies**: fixed buying a proxy — after you confirmed the order, the payment screen with the QR code did not appear. The confirmation step also shows the plan, provider, term and quantity properly now, instead of placeholder text.
+- **Proxies**: **Purchased** shows each proxy's name and host:port — the name you will see when picking a proxy for a profile — and adds **Copy address**. Renewing opens a small dialog where you only choose the term; the plan, country and rotation stay as they are.
+
+**Tiếng Việt**
+
+- **Proxy**: màn Proxy giờ có ba tab. **Tự thêm** chỉ chứa proxy bạn tự thêm hoặc nhập — tất cả đều sửa, xóa và xuất được. **Đã mua** chứa proxy bạn đã mua. **Mua proxy** hiện các gói đang bán.
+- **Proxy**: tab **Mua proxy** bày mọi gói cạnh nhau, mỗi gói có giá theo ngày, giao thức, băng thông, quốc gia và kiểu xoay IP, để so sánh trong một lần nhìn. Gói đang không mua được vẫn nằm trên kệ kèm lý do. Chọn gói, rồi chọn thời hạn, số lượng và quốc gia ở bên phải và trả tiền. Trả xong bạn được đưa sang tab **Đã mua**, nơi proxy mới hiện "Đang cấp proxy…" cho tới khi sẵn sàng.
+- **Proxy**: sửa lỗi mua proxy — xác nhận đơn xong thì màn thanh toán có mã QR không hiện ra. Bước xác nhận cũng hiện đúng gói, nhà cung cấp, thời hạn và số lượng, thay vì chữ giữ chỗ.
+- **Proxy**: tab **Đã mua** hiện tên và host:port của từng proxy — đúng cái tên bạn thấy khi chọn proxy cho profile — và có thêm **Sao chép địa chỉ**. Gia hạn mở một dialog nhỏ chỉ để chọn thời hạn; gói, quốc gia và kiểu xoay giữ nguyên.
+
 ### v1.0.0-beta.46 — 2026-11-06
 
 **English**
