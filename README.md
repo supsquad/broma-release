@@ -11,6 +11,26 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.49 — 2026-11-08
+
+**English**
+
+- **Editor**: with no profile selected, **Run** now uses a clean temporary browser that exists only in the Editor and is deleted when it closes. You no longer have to pick or create a profile just to try a flow.
+- **Editor**: the temporary browser opens with the extensions the flow requires, downloading Chrome Web Store and Broma Store extensions when needed. If it is already open without them, it restarts with them. A local extension only has to be on this computer.
+- **Editor**: when the selected profile lacks a required extension, the Editor now names it and says what to do, instead of showing a generic error. For a Store extension, **Add and run** adds it to the profile and starts the run.
+- **Store**: a flow's page lists the extensions it needs before you buy, and where each one comes from. An extension only the seller has is clearly marked: Broma cannot install it, so the flow will not run without it. Sellers see the same list on each version, with a warning for local extensions.
+- **Flow data**: **Requirements** moved to the bottom of the panel, after the form, the shared memory and the result table.
+- **Agent**: the agent picker shows a Claude Code or Codex agent's plan (for example `max`) instead of "CLI default".
+
+**Tiếng Việt**
+
+- **Editor**: khi chưa chọn profile, nút **Chạy** giờ dùng một browser tạm sạch, chỉ có trong Editor và bị xóa khi đóng. Không còn phải chọn hay tạo profile chỉ để chạy thử flow.
+- **Editor**: browser tạm mở kèm các extension flow yêu cầu, tự tải bản Chrome Web Store và Broma Store khi cần. Nếu nó đang mở mà thiếu, nó tự mở lại với đủ extension. Extension cục bộ chỉ cần có trên máy này.
+- **Editor**: khi profile đã chọn thiếu extension bắt buộc, Editor giờ nói rõ thiếu cái nào và cần làm gì, thay vì báo lỗi chung chung. Với extension từ Store, nút **Thêm và chạy** thêm nó vào profile rồi chạy luôn.
+- **Cửa hàng**: trang flow liệt kê các extension flow cần trước khi bạn mua, kèm nguồn của từng cái. Extension chỉ người bán có được ghi rõ: Broma không cài được nên flow sẽ không chạy nếu thiếu. Người bán thấy cùng danh sách ở từng phiên bản, kèm cảnh báo khi có extension cục bộ.
+- **Dữ liệu flow**: mục **Yêu cầu** chuyển xuống cuối panel, sau Form nhập, Bộ nhớ chung và Bảng kết quả.
+- **Agent**: bộ chọn agent hiện gói của agent Claude Code hoặc Codex (ví dụ `max`) thay vì "Mặc định của CLI".
+
 ### v1.0.0-beta.48 — 2026-11-08
 
 **English**
