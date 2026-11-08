@@ -11,6 +11,20 @@ The application source lives in a separate private repository.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.48 — 2026-11-08
+
+**English**
+
+- **Flows**: a flow can now declare the browser extensions it needs in **Flow data → Requirements**. The declaration travels with shared and Store flows without carrying a database id from the author's computer.
+- **Runs**: before a flow runs, Broma checks every selected profile for its required extensions and shows what is missing, disabled or waiting for a browser restart. **Add to profile** explicitly downloads portable Store extensions and enables existing ones; a local extension still has to be added from the Profiles screen.
+- **Runs and schedules**: a flow cannot start without its required extensions. A browser that was already open must be reopened before it can load a newly added extension, and a scheduled run rejected by this check now leaves a visible error in Runs instead of failing silently.
+
+**Tiếng Việt**
+
+- **Flow**: flow giờ khai báo được các extension trình duyệt bắt buộc trong **Dữ liệu flow → Yêu cầu**. Khai báo này đi theo flow khi chia sẻ hoặc bán trong Cửa hàng mà không mang theo id database trên máy của người tạo.
+- **Chạy**: trước khi flow chạy, Broma kiểm tra mọi profile đã chọn và cho biết extension nào đang thiếu, bị tắt hoặc cần mở lại browser. Nút **Thêm vào profile** chỉ tải extension có nguồn Store và bật extension sẵn có khi bạn chủ động bấm; extension cục bộ vẫn phải được thêm từ màn Profile.
+- **Chạy và lịch chạy**: flow không thể bắt đầu khi chưa đủ extension bắt buộc. Browser đang mở phải được mở lại để nạp extension vừa thêm, và lịch chạy bị từ chối bởi kiểm tra này giờ để lại lỗi rõ ràng trong màn Chạy thay vì im lặng thất bại.
+
 ### v1.0.0-beta.47 — 2026-11-07
 
 **English**
