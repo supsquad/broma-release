@@ -10,6 +10,24 @@ version itself and downloads it from here.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.51 — 2026-11-09
+
+**English**
+
+- **Data**: a new **Data** screen, next to **Run**. **On this machine** lists every run whose flow writes a result table, with how many rows it has and where it was shared.
+- **Data**: **Push to cloud** shares a run's whole result as one file with a team you own or are a member of. Everyone in the team can open and download it; pushing again replaces the file. Turn on **Push again after every run** and the file updates itself whenever a run ends. Shared files count against the team owner's plan storage.
+- **Data**: the **Cloud** tab shows a team's shared files like a shared drive. Open one, or pick several and **View merged** to see them as one table, then export to Excel, CSV or JSON. Owners and members can rename and delete; viewers can open and download.
+- **Editor**: new **HTTP request** step, to send what a flow collected to a webhook, a Google Sheets Apps Script or an API while it runs. In a JSON body, write `{{var.items}}` without quotes and any value becomes valid JSON. The response can be saved for the next steps.
+- **Agent**: the Agent can list your data and push a run's result to a team's cloud, after you approve.
+
+**Tiếng Việt**
+
+- **Dữ liệu**: màn **Dữ liệu** mới, ngay dưới **Chạy**. Tab **Trên máy** liệt kê các run có flow ghi bảng kết quả, kèm số dòng và nơi đã chia sẻ.
+- **Dữ liệu**: nút **Đẩy lên cloud** chia sẻ toàn bộ kết quả của một run thành một tệp cho team mà bạn là chủ hoặc thành viên. Mọi người trong team mở và tải được; đẩy lại sẽ thay tệp cũ. Bật **Tự đẩy sau mỗi lần chạy** thì tệp tự cập nhật mỗi khi một lượt chạy kết thúc. Tệp chia sẻ tính vào dung lượng gói của chủ team.
+- **Dữ liệu**: tab **Cloud** hiện các tệp team đã chia sẻ, như một ổ đĩa chung. Mở từng tệp, hoặc chọn nhiều tệp rồi **Xem gộp** thành một bảng và xuất ra Excel, CSV hay JSON. Chủ team và thành viên đổi tên, xóa được; người xem thì mở và tải.
+- **Editor**: thêm bước **Gọi HTTP**, để gửi dữ liệu flow thu được tới webhook, Apps Script của Google Sheets hoặc một API ngay trong lúc chạy. Trong nội dung JSON, viết `{{var.items}}` không có ngoặc kép, giá trị nào cũng thành JSON hợp lệ. Có thể lưu phản hồi cho các bước sau.
+- **Agent**: Agent xem được dữ liệu của bạn và đẩy kết quả của một run lên cloud của team, sau khi bạn cho phép.
+
 ### v1.0.0-beta.50 — 2026-11-09
 
 **English**
