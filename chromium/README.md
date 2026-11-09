@@ -1,15 +1,17 @@
-# chromium-release
+# Broma Chromium
 
-Public release channel for **Broma Chromium**, the browser engine used by Broma
-App. Engine builds are published here as GitHub Release assets.
+Release notes for **Broma Chromium**, the browser engine used by Broma App. Its
+builds are the `chromium-v<chromium-version>-<build>` releases of this
+repository. There is nothing to install by hand: Broma App downloads the engine
+a profile needs and offers each upgrade.
 
 Assets are named `broma-chromium-v<chromium-version>-<build>-win-x64.zip`. The
 archive is flat: `chrome.exe` sits at its root, with no wrapper directory.
 
-Tags are `v<chromium-version>-<build>`. The build number increments when the
-patch set changes but the underlying Chromium version does not.
-
-The engine source and patches live in a separate private repository.
+The build number increments when the patch set changes but the underlying
+Chromium version does not. Broma App knows a build by its version without the
+`chromium-` prefix, for example `v151.0.7922.175-5`, and the notes below
+are headed the same way.
 
 ## Release notes
 
