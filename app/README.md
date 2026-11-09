@@ -10,6 +10,28 @@ version itself and downloads it from here.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.52 — 2026-11-10
+
+**English**
+
+- **Team**: everyone in a team can now add profiles, flows, extensions and data to it. Whoever adds something, and the team owner, can do everything with it and decide who else may **Use**, **Edit** or **Edit and delete** it — the whole team at one level, or person by person.
+- **Team**: one **Share** dialog for profiles, flows, extensions and data files. Pick several profiles of the same team to set access for all of them at once; a level that differs between them is kept as it is for each one unless you change it.
+- **Team**: the Viewer role is gone. Former viewers are now members, and what was shared with them keeps the access it had. Inviting someone no longer asks for a role.
+- **Profiles**: the **Sharing** column shows whether the whole team or some people may use each profile, and on a profile shared with you, what you may do with it. A team profile now names who created it.
+- **Extensions**: in a team library, editing or deleting an extension follows your access to it; applying it to your profiles only needs Use.
+- **Data**: when you push a new file, choose right away what the whole team may do with it.
+- **Agent**: the Agent can show and change who may use a profile, flow, extension or data file, after you approve.
+
+**Tiếng Việt**
+
+- **Team**: giờ ai trong team cũng thêm được profile, flow, tiện ích và dữ liệu lên team. Người thêm và chủ team làm được mọi thứ với nó, và quyết định ai khác được **Dùng**, **Sửa** hay **Sửa và xóa** — cả team một mức, hoặc từng người một.
+- **Team**: một hộp **Chia sẻ** chung cho profile, flow, tiện ích và tệp dữ liệu. Chọn nhiều profile cùng một team để đặt quyền cho tất cả một lần; mức nào đang khác nhau giữa các profile thì mỗi profile giữ nguyên, trừ khi bạn đổi.
+- **Team**: bỏ vai trò Người xem. Người xem trước đây giờ là thành viên, những gì đã chia sẻ cho họ giữ nguyên quyền như cũ. Mời người vào team không còn phải chọn vai trò.
+- **Profile**: cột **Chia sẻ** cho biết cả team hay những ai được dùng từng profile, và với profile người khác chia sẻ cho bạn thì bạn được làm gì. Profile của team giờ ghi tên người tạo.
+- **Tiện ích**: trong thư viện của team, sửa hay xóa một tiện ích theo quyền của bạn với tiện ích đó; áp tiện ích vào profile của bạn chỉ cần quyền Dùng.
+- **Dữ liệu**: khi đẩy một tệp mới, chọn ngay cả team được làm gì với tệp đó.
+- **Agent**: Agent xem và đổi được ai được dùng một profile, flow, tiện ích hay tệp dữ liệu, sau khi bạn cho phép.
+
 ### v1.0.0-beta.51 — 2026-11-09
 
 **English**
