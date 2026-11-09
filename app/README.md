@@ -10,6 +10,20 @@ version itself and downloads it from here.
 What each release changes, newest first. Broma App shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.50 — 2026-11-09
+
+**English**
+
+- **Updates**: **Download & install** now fetches the latest download link first, so an update offered earlier in the session no longer fails with "404 Not Found".
+- **Updates**: "What's new" shows release notes again, both for an available update and for the version you are running.
+- **Engine upgrade**: the Chromium engine upgrade dialog shows what each new engine version changes again.
+
+**Tiếng Việt**
+
+- **Cập nhật**: nút **Tải & cài đặt** giờ lấy link tải mới nhất trước, nên bản cập nhật được báo từ đầu phiên không còn lỗi "404 Not Found".
+- **Cập nhật**: mục "Có gì mới" lại hiện ghi chú, cả cho bản cập nhật lẫn phiên bản đang chạy.
+- **Nâng engine**: hộp thoại nâng engine Chromium lại hiện ghi chú của từng bản engine mới.
+
 ### v1.0.0-beta.49 — 2026-11-08
 
 **English**
