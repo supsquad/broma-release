@@ -10,6 +10,18 @@ version itself and downloads it from here.
 What each release changes, newest first. Broma shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.53 — 2026-11-11
+
+**English**
+
+- **Broma**: the app is now called Broma instead of Broma App, in the Start menu, the window title and the taskbar. A new install goes to `Program Files\Broma`; an update stays in the folder you installed to and replaces the old Start menu and desktop shortcuts.
+- If you pinned the app to the taskbar, unpin it and pin it again after updating, so one icon stays for the app.
+
+**Tiếng Việt**
+
+- **Broma**: app giờ tên là Broma thay vì Broma App, trong Start menu, tiêu đề cửa sổ và thanh taskbar. Cài mới sẽ vào `Program Files\Broma`; cập nhật thì giữ thư mục đang cài và thay shortcut cũ ở Start menu và desktop.
+- Nếu bạn đã ghim app lên taskbar, sau khi cập nhật hãy bỏ ghim rồi ghim lại để chỉ còn một biểu tượng.
+
 ### v1.0.0-beta.52 — 2026-11-10
 
 **English**
