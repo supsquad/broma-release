@@ -1,13 +1,13 @@
-# Broma App
+# Broma
 
-Release notes for **Broma App**, the Windows desktop app. Its installers are the
+Release notes for **Broma**, the Windows desktop app. Its installers are the
 `app-v<version>` releases of this repository, named
 `broma-setup-v<version>.exe`. Install once; the app then offers each new
 version itself and downloads it from here.
 
 ## Release notes
 
-What each release changes, newest first. Broma App shows these notes next to an
+What each release changes, newest first. Broma shows these notes next to an
 available update, in English or Vietnamese.
 
 ### v1.0.0-beta.52 — 2026-11-10

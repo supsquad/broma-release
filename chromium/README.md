@@ -1,21 +1,21 @@
 # Broma Chromium
 
-Release notes for **Broma Chromium**, the browser engine used by Broma App. Its
+Release notes for **Broma Chromium**, the browser engine used by Broma. Its
 builds are the `chromium-v<chromium-version>-<build>` releases of this
-repository. There is nothing to install by hand: Broma App downloads the engine
+repository. There is nothing to install by hand: Broma downloads the engine
 a profile needs and offers each upgrade.
 
 Assets are named `broma-chromium-v<chromium-version>-<build>-win-x64.zip`. The
 archive is flat: `chrome.exe` sits at its root, with no wrapper directory.
 
 The build number increments when the patch set changes but the underlying
-Chromium version does not. Broma App knows a build by its version without the
+Chromium version does not. Broma knows a build by its version without the
 `chromium-` prefix, for example `v151.0.7922.175-5`, and the notes below
 are headed the same way.
 
 ## Release notes
 
-What each engine build changes, newest first. Broma App shows these notes when
+What each engine build changes, newest first. Broma shows these notes when
 it offers to upgrade a profile's engine, in English or Vietnamese.
 
 ### v151.0.7922.175-5 — 2026-10-31
