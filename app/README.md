@@ -10,6 +10,24 @@ version itself and downloads it from here.
 What each release changes, newest first. Broma shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.54 — 2026-11-13
+
+**English**
+
+- **Agent**: a new **Model** chip in the Agent input box picks the model the agent answers with. It lists the models the agent can use, with a search box and a reload button; a model that isn't listed can still be typed in and used. The choice is kept per agent, for every chat and after the app restarts.
+- **Agent**: type `/model` to open the model picker. Switching to another agent is now `/agent`.
+- **Agent**: for a Claude Code or Codex agent, the model is now changed with the chip instead of in the edit form. A Codex agent shows its list once it has answered at least once.
+- **Agent** and **AI for flows**: when you add or edit one with an API key, pick the model from the provider's list instead of typing its name. If the list can't be loaded, the provider's own message says why.
+- **Editor**: in the **AI Vision** step, **Model override** can be picked from the models of every flow AI on this machine, grouped by AI. Models that take images are marked with an eye, and models the provider says can't read images are left out.
+
+**Tiếng Việt**
+
+- **Agent**: chip **Model** mới trong ô nhập Agent để chọn model agent dùng để trả lời. Chip liệt kê các model agent dùng được, có ô tìm và nút tải lại; model không có trong danh sách vẫn gõ tên vào để dùng được. Lựa chọn lưu theo từng agent, giữ cho mọi chat và cả khi mở lại app.
+- **Agent**: gõ `/model` để mở danh sách model. Đổi sang agent khác giờ là `/agent`.
+- **Agent**: với agent Claude Code hay Codex, đổi model bằng chip thay vì trong form sửa agent. Agent Codex có danh sách sau khi đã trả lời ít nhất một lần.
+- **Agent** và **AI cho flow**: khi thêm hoặc sửa bằng API key, chọn model từ danh sách của nhà cung cấp thay vì gõ tên. Không lấy được danh sách thì hiện đúng thông báo của nhà cung cấp.
+- **Editor**: ở bước **AI Vision**, ô **Ghi đè model** chọn được từ model của mọi AI cho flow trên máy này, chia nhóm theo AI. Model xem được ảnh có biểu tượng mắt, model mà nhà cung cấp báo không xem được ảnh thì bị ẩn.
+
 ### v1.0.0-beta.53 — 2026-11-11
 
 **English**
