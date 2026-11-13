@@ -10,6 +10,28 @@ version itself and downloads it from here.
 What each release changes, newest first. Broma shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.55 — 2026-11-14
+
+**English**
+
+- **Editor**: new steps under **Extensions & tabs**. **Open extension** opens the popup, the options page or another page of an extension the flow requires, such as a crypto wallet. **Wait for tab** continues in a tab or popup that opens during the run, like a wallet's confirmation window. **Switch tab** and **Close tab** take the run to another tab and back to the one it started in.
+- **Editor**: the **Create wallet** step makes new EVM or Ronin wallets on this machine, without a browser. Each wallet can come with a 12-word recovery phrase, and the list is kept for later steps, for example to write into the result table.
+- **Agent**: the Agent can list a profile's tabs, switch between them, and open an extension the profile has. Opening an extension asks for your approval once per profile and extension in a chat. Recovery phrases and private keys on the pages it reads are hidden before they reach the model.
+- **Agent**: it now says plainly that a flow's results can be exported as CSV, XLSX or JSON from the Runs and Data screens.
+- **Team**: sharing a flow that needs your team's own extensions now lists them in the **Share** dialog. Tick the box to let everyone who may use the flow use those extensions too. An extension that isn't in the team's library yet is added to it from this machine, which counts against the team's storage. An extension someone else added shows their name, since only they or the team owner can share it.
+- **Run**: when a profile lacks one of your team's extensions that a flow needs, **Add to profile** and **Add and run** now take it from the team's library if it's shared with you. If it isn't, the message tells you to ask whoever added it, or the team owner, to share it with you.
+- **Agent**: sharing a flow also lets the people it's shared with use the extensions the flow needs, when you're allowed to share those extensions.
+
+**Tiếng Việt**
+
+- **Editor**: thêm các bước mới trong nhóm **Tiện ích & tab**. **Mở tiện ích** mở popup, trang tùy chọn hoặc một trang khác của tiện ích mà flow yêu cầu, ví dụ ví crypto. **Chờ tab mới** làm tiếp trong tab hoặc popup mở ra khi đang chạy, như cửa sổ xác nhận của ví. **Chuyển tab** và **Đóng tab** đưa lượt chạy sang tab khác rồi quay về tab ban đầu.
+- **Editor**: bước **Tạo ví** tạo ví EVM hoặc Ronin mới ngay trên máy, không cần trình duyệt. Mỗi ví có thể kèm cụm từ khôi phục 12 từ, và danh sách ví được giữ lại cho các bước sau, ví dụ để ghi vào bảng kết quả.
+- **Agent**: Agent xem được danh sách tab của profile, chuyển giữa các tab và mở tiện ích mà profile đã có. Mỗi lần mở một tiện ích trên một profile, Agent hỏi bạn duyệt một lần trong cuộc trò chuyện. Cụm từ khôi phục và private key trên các trang Agent đọc được che đi trước khi gửi cho model.
+- **Agent**: giờ nói rõ kết quả flow xuất được ra CSV, XLSX hoặc JSON ở màn Chạy và màn Dữ liệu.
+- **Team**: khi chia sẻ flow cần tiện ích tự phát triển của team, hộp **Chia sẻ** giờ liệt kê các tiện ích đó. Tick ô để mọi người được dùng flow cũng dùng được các tiện ích này. Tiện ích chưa có trong thư viện của team sẽ được đưa lên từ máy này, tính vào dung lượng của team. Tiện ích do người khác thêm thì hiện tên người đó, vì chỉ họ hoặc chủ team mới chia sẻ được.
+- **Chạy**: khi profile thiếu tiện ích của team mà flow cần, **Thêm vào profile** và **Thêm và chạy** giờ lấy tiện ích từ thư viện của team nếu bạn đã được chia sẻ. Nếu chưa, thông báo sẽ bảo bạn nhờ người thêm tiện ích hoặc chủ team chia sẻ.
+- **Agent**: khi Agent chia sẻ flow, người được chia sẻ cũng dùng được các tiện ích flow cần, nếu bạn có quyền chia sẻ các tiện ích đó.
+
 ### v1.0.0-beta.54 — 2026-11-13
 
 **English**
